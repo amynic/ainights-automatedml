@@ -7,7 +7,7 @@ If you are new to Data Science, automated ML will help you get jumpstarted by si
 
 If you are an experienced data scientist, automated ML will help increase your productivity by intelligently performing the model and hyperparameter selection for your training and generates high quality models much quicker than manually specifying several combinations of the parameters and running training jobs. Automated ML provides visibility and access to all the training jobs and the performance characteristics of the models to help you further tune the pipeline if you desire.
 
-The presentation can be found in this repository [here] (.zip)(https://github.com/amynic/ainights-automatedml/blob/master/Automated%20ML%20-%20AI%20Nights%202019.zip).
+The presentation can be found in this repository [here](https://github.com/amynic/ainights-automatedml/blob/master/Automated%20ML%20-%20AI%20Nights%202019.zip). (.zip file)
 
 To learn more about automated ML, see documentation [here](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml).
 
