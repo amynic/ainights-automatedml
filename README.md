@@ -26,7 +26,7 @@ Follow the instructions in the [documentation](https://docs.microsoft.com/en-us/
 1. Enter your experiment name, then select a compute from the list of your existing computes or [create a new compute](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments#create-an-experiment).
 
 1. Select a data file from your storage container, or upload a file from your local computer to the container.
-Car price dataset downloadable from [this location](https://automlpmdemows6960037818.blob.core.windows.net/sample-data/Automobile price data.csv).
+Car price dataset downloadable from [this location](https://automlpmdemows6960037818.blob.core.windows.net/sample-data/Automobile%20price%20data.csv).
 
 1. Preview data and keep all columns selected for training.
 
