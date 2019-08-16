@@ -21,12 +21,12 @@ Azure subscirption and Azure ML workspace. See instructions on how to create a w
 Follow the instructions in the [documentation](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments) for a full overview of the user interface.
 
 1. Navigate to the left pane of your workspace. Select Automated Machine Learning under the Authoring (Preview) section.
-![Automated ML tab](https://docs.microsoft.com/en-us/azure/machine-learning/service/media/how-to-create-portal-experiments/nav-pane.png)
+![Automated ML tab](https://docs.microsoft.com/en-us/azure/machine-learning/service/media/how-to-create-portal-experiments/nav-pane.png).
 
-1. Enter your experiment name, then select a compute from the list of your existing computes or [create a new compute](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments#create-an-experiment).
+1. Enter your experiment name, then select a compute from the list of your existing computes or [create a new compute](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments#create-an-experiment). Make sure you use at least 1 node if you also want to inspect the data. 
 
 1. Select a data file from your storage container, or upload a file from your local computer to the container.
-Car price dataset downloadable from [this location](https://automlpmdemows6960037818.blob.core.windows.net/sample-data/Automobile%20price%20data.csv).
+Car price dataset downloadable from [this location](https://automlpmdemows6960037818.blob.core.windows.net/sample-data/Automobile%20price%20data.csv). If you use this original file, you would have to do some data cleaning and change the format to .csv. You can also use the cleaned version of this dataset from this repository (Automobile price data.csv).
 
 1. Preview data and keep all columns selected for training.
 
