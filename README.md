@@ -24,9 +24,12 @@ Follow the instructions in the [documentation](https://docs.microsoft.com/en-us/
 ![Automated ML tab](https://docs.microsoft.com/en-us/azure/machine-learning/service/media/how-to-create-portal-experiments/nav-pane.png).
 
 1. Enter your experiment name, then select a compute from the list of your existing computes or [create a new compute](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments#create-an-experiment). Make sure you use at least 1 node if you also want to inspect the data. 
+![Create compute](https://github.com/mdragt/ainights-automatedml/blob/master/create_compute.png)
+This enabled the profiling option, so you can inspect the data that you will upload in the next step.
+![Create compute](https://github.com/mdragt/ainights-automatedml/blob/master/compute_profiling_enabled.png)
 
 1. Select a data file from your storage container, or upload a file from your local computer to the container.
-Car price dataset downloadable from [this location](https://automlpmdemows6960037818.blob.core.windows.net/sample-data/Automobile%20price%20data.csv). If you use this original file, you would have to do some data cleaning and change the format to .csv. You can also use the cleaned version of this dataset from this repository (Automobile price data.csv).
+Car price dataset downloadable from [this location](https://automlpmdemows6960037818.blob.core.windows.net/sample-data/Automobile%20price%20data.csv). If you use this original file, you would have to do some data cleaning and change the format to .csv. You can also use the [cleaned version](https://github.com/mdragt/ainights-automatedml/blob/master/Automobile%20price%20data.csv) of this dataset.
 
 1. Preview data and keep all columns selected for training.
 
