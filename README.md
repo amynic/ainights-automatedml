@@ -9,21 +9,21 @@ If you are an experienced data scientist, automated ML will help increase your p
 
 The presentation can be found in this repository [here](https://github.com/amynic/ainights-automatedml/blob/master/Automated%20ML%20-%20AI%20Nights%202019.zip). (.zip file)
 
-To learn more about automated ML, see documentation [here](https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml).
+To learn more about automated ML, see documentation [here](https://docs.microsoft.com/azure/machine-learning/service/concept-automated-ml?WT.mc_id=aiml-0000-amynic).
 
 Try the sample notebooks [here](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/automated-machine-learning).
 
 ## Prerequisites
-Azure subscirption and Azure ML workspace. See instructions on how to create a worksapce [here](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments).
+Azure subscirption and Azure ML workspace. See instructions on how to create a worksapce [here](https://docs.microsoft.com/azure/machine-learning/service/how-to-create-portal-experiments?WT.mc_id=aiml-0000-amynic).
 
 ## Automated ML using Azure Portal UI: Car price prediction
 
-Follow the instructions in the [documentation](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments) for a full overview of the user interface.
+Follow the instructions in the [documentation](https://docs.microsoft.com/azure/machine-learning/service/how-to-create-portal-experiments?WT.mc_id=aiml-0000-amynic) for a full overview of the user interface.
 
 1. Navigate to the left pane of your workspace. Select Automated Machine Learning under the Authoring (Preview) section.
-![Automated ML tab](https://docs.microsoft.com/en-us/azure/machine-learning/service/media/how-to-create-portal-experiments/nav-pane.png).
+![Automated ML tab](https://docs.microsoft.com/azure/machine-learning/service/media/how-to-create-portal-experiments/nav-pane.png?WT.mc_id=aiml-0000-amynic).
 
-1. Enter your experiment name, then select a compute from the list of your existing computes or [create a new compute](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-portal-experiments#create-an-experiment). Make sure you use at least 1 node if you also want to inspect the data. 
+1. Enter your experiment name, then select a compute from the list of your existing computes or [create a new compute](https://docs.microsoft.com/azure/machine-learning/service/how-to-create-portal-experiments?WT.mc_id=aiml-0000-amynic#create-an-experiment). Make sure you use at least 1 node if you also want to inspect the data. 
 ![Create compute](https://github.com/mdragt/ainights-automatedml/blob/master/create_compute.png)
 This enabled the profiling option, so you can inspect the data that you will upload in the next step.
 ![Create compute](https://github.com/mdragt/ainights-automatedml/blob/master/compute_profiling_enabled.png)
@@ -38,23 +38,23 @@ Car price dataset downloadable from [this location](https://automlpmdemows696003
 
 1. Open “**Advanced settings**”, set training job time to 15 minutes (for the workshop).
 
-1. Hit "**Start**" and wait for the training job to start. You’ll be able to see the models which are created during the run, click on any of the models to open the detailed view of that model, where you can analyze the [graphs and metrics](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-understand-automated-ml).
+1. Hit "**Start**" and wait for the training job to start. You’ll be able to see the models which are created during the run, click on any of the models to open the detailed view of that model, where you can analyze the [graphs and metrics](https://docs.microsoft.com/azure/machine-learning/service/how-to-understand-automated-ml?WT.mc_id=aiml-0000-amynic).
 
 1. Once the run is completed, click **deploy the best model** to create a deployed endpoint from the model.
 
-1. Once deployed, follow [instructions](https://docs.microsoft.com/en-us/power-bi/service-machine-learning-integration) to consume from Power BI.
+1. Once deployed, follow [instructions](https://docs.microsoft.com/power-bi/service-machine-learning-integration?WT.mc_id=aiml-0000-amynic) to consume from Power BI.
 
 
 ## Automated ML using Python code in Jupyter Notebook: Energy Demand
-Follow the instructions to run automated ML from a Jupyter notebook using Azure ML service Notebook VM. A more comprehensive tutorial can be found [here](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-auto-train-forecast).
+Follow the instructions to run automated ML from a Jupyter notebook using Azure ML service Notebook VM. A more comprehensive tutorial can be found [here](https://docs.microsoft.com/azure/machine-learning/service/how-to-auto-train-forecast?WT.mc_id=aiml-0000-amynic).
 
 1. Open your Machine Learning service workspace and go to "**Notebook VMs**"
 
-1. Create a new Notebook VM following the instructions [here](https://docs.microsoft.com/en-us/azure/machine-learning/service/tutorial-1st-experiment-sdk-setup#azure).
-![Create Notebook VM](https://docs.microsoft.com/en-us/azure/machine-learning/service/media/tutorial-1st-experiment-sdk-setup/add-workstation.png)
+1. Create a new Notebook VM following the instructions [here](https://docs.microsoft.com/azure/machine-learning/service/tutorial-1st-experiment-sdk-setup?WT.mc_id=aiml-0000-amynic#azure).
+![Create Notebook VM](https://docs.microsoft.com/azure/machine-learning/service/media/tutorial-1st-experiment-sdk-setup/add-workstation.png?WT.mc_id=aiml-0000-amynic)
 
 1. After VM has started (~10mins) click on **Jupyter** to open the Jupyter notebook client.
-![Open Notebook VM](https://docs.microsoft.com/en-us/azure/machine-learning/service/media/tutorial-1st-experiment-sdk-setup/start-server.png)
+![Open Notebook VM](https://docs.microsoft.com/azure/machine-learning/service/media/tutorial-1st-experiment-sdk-setup/start-server.png?WT.mc_id=aiml-0000-amynic)
 
 1. Open the energy demand notebook: Click on root folder > Samples-x.x.xx > how-to-use-azureml > automated-machine-learning > forecasting-energy-demand > /auto-ml-forecasting-energy-demand.ipynb
 
